@@ -11,7 +11,7 @@ RND server : <YOUR_IP_PUBLIC> (YOUR-VM-NAME)
 Reference : [YT PZN](https://www.youtube.com/playlist?list=PL-CtdCApEFH8XrWyQAyRd6d_CKwxD8Ime)
 
 
-[MATERI](Kubernetes20%(Kelas20%Lama).pptx)
+[MATERI](Kubernetes%20(Kelas%20Lama).pptx)
 
 [1. MINIKUBE (setup kubernetes local ubuntu 22.04 LTS)](guide_0_minikube.md)
 
