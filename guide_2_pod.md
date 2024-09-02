@@ -22,7 +22,7 @@ kubectl get pod
 
 ```bash
 
-ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~$ kubectl get pod
+ubuntu@YOUR-VM-NAME:~$ kubectl get pod
 No resources found in default namespace.
 
 ```
@@ -93,12 +93,12 @@ makesure pod running
 kubectl get pod    
 # kubectl get po
 # kubectl get pods 
-# ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/pod$ kubectl get pod
+# ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/pod$ kubectl get pod
 # NAME    READY   STATUS    RESTARTS   AGE
 # nginx   1/1     Running   0          2m8s
 
 kubectl get pod -o wide
-#ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/pod$ kubectl get pod -o wide
+#ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/pod$ kubectl get pod -o wide
 #NAME    READY   STATUS    RESTARTS   AGE     IP           NODE       NOMINATED NODE   READINESS GATES
 #nginx   1/1     Running   0          3m49s   10.244.0.5   minikube   <none>           <none>
 
@@ -140,7 +140,7 @@ delete pod with speisific label
 
 ```bash
 # kubectl get pod --show-labels
-#ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/pod$  kubectl get pod --show-labels
+#ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/pod$  kubectl get pod --show-labels
 #NAME                    READY   STATUS    RESTARTS   AGE   LABELS
 #nginx-with-annotation   1/1     Running   0          65m   division=product,environment=development,project=xxx,team=project,version=3.20
 #nginx-with-label        1/1     Running   0          91m   division=product,environment=production,project=xxx,team=product,version=3.20

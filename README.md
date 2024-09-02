@@ -6,7 +6,7 @@ Maintener : EKI INDRADI
 
 Last Update : 2024-08-27
 
-RND server : <YOUR_IP_PUBLIC> (AZRN-VM-SV-PROD-KUBERNETES)s
+RND server : <YOUR_IP_PUBLIC> (YOUR-VM-NAME)s
 
 Reference : [YT PZN](https://www.youtube.com/playlist?list=PL-CtdCApEFH8XrWyQAyRd6d_CKwxD8Ime)
 

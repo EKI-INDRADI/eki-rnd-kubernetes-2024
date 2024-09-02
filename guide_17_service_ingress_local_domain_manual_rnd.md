@@ -1193,7 +1193,7 @@ NOTE USE =========================================
 
 # error 2 Ingress New
 
-# ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/service$ cd /home/ubuntu/KUBERNETES_FILE/service &&
+# ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/service$ cd /home/ubuntu/KUBERNETES_FILE/service &&
 # kubectl create -f service_nginx_with_ingress.yaml  --namespace default
 # replicaset.apps/pod-nginx-with-ingress created
 # service/service-nginx-with-ingress created

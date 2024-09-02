@@ -70,7 +70,7 @@ kubectl get pod --show-labels
 #nginx-with-annotaion   1/1     Running   0          54s   division=product,environment=development,project=xxx,team=project,version=3.20
 #nginx-with-label       1/1     Running   0          24m   division=product,environment=production,project=xxx,team=product,version=3.20
 kubectl describe pod nginx-with-annotation
-#ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/pod$ kubectl describe pod nginx-with-annotation
+#ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/pod$ kubectl describe pod nginx-with-annotation
 #Name:             nginx-with-annotation
 #Namespace:        default
 #Priority:         0

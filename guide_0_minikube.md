@@ -21,7 +21,7 @@ pake kalo azure vm hrs paket D V3 , butuh virtualization nested
 - minimal D V3 (support Nester Virtualization) 
 - https://github.com/kubernetes/minikube
 - name 
-AZRN-VM-SV-PROD-KUBERNETES / LOCAL-VM-SV-PROD-KUBERNETES / PRIEDS-VM-SV-PROD-KUBERNETES 
+YOUR-VM-NAME / LOCAL-VM-SV-PROD-KUBERNETES / PRIEDS-VM-SV-PROD-KUBERNETES 
 
 
 disable swap off

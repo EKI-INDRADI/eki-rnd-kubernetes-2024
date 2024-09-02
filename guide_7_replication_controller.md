@@ -191,10 +191,10 @@ kubectl delete rc rc-nginx --cascade=orphan
 
 #NOTE : jika menggunakan cascade tidak akan hilang pod nya
 
-#ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/replication_controller$ kubectl get rc
+#ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/replication_controller$ kubectl get rc
 #No resources found in default namespace.
 
-#ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/replication_controller$ kubectl get pod
+#ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/replication_controller$ kubectl get pod
 #NAME                     READY   STATUS             RESTARTS         AGE
 #nginx-with-probe         1/1     Running            0                163m
 #nginx-with-probe-error   0/1     CrashLoopBackOff   54 (3m48s ago)   143m

@@ -327,7 +327,7 @@ kubectl get deployments
 
 kubectl get all
 
-# ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/service$ kubectl get all
+# ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/service$ kubectl get all
 # NAME                              READY   STATUS    RESTARTS   AGE
 # pod/nodejs-web-5b8d4df8c4-2lcn7   1/1     Running   0          21s
 # pod/nodejs-web-5b8d4df8c4-5xn9h   1/1     Running   0          21s

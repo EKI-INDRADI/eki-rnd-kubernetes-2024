@@ -17,7 +17,7 @@ kubectl get nodes
 
 ```bash
 
-ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~$ kubectl get nodes
+ubuntu@YOUR-VM-NAME:~$ kubectl get nodes
 NAME       STATUS   ROLES           AGE   VERSION
 minikube   Ready    control-plane   23m   v1.30.0
 

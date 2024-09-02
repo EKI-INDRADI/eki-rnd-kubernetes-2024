@@ -61,13 +61,13 @@ kubectl create -f pod_nginx_with_label.yaml
 
 ```bash
 kubectl get pod 
-#ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/pod$ kubectl get pod
+#ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/pod$ kubectl get pod
 #NAME               READY   STATUS    RESTARTS   AGE
 #nginx              1/1     Running   0          27m
 #nginx-with-label   1/1     Running   0          23s
 
 kubectl get pod --show-labels 
-#ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/pod$ kubectl get pod --show-labels
+#ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/pod$ kubectl get pod --show-labels
 #NAME               READY   STATUS    RESTARTS   AGE   LABELS
 #nginx              1/1     Running   0          28m   <none>
 #nginx-with-label   1/1     Running   0          39s   division=product,environment=production,project=xxx,team=product,version=3.20
@@ -83,7 +83,7 @@ kubectl label pod <pod_name> key=value --overwrite
 # kubectl label pod nginx environment=development
 # kubectl label pod nginx environment=qa --overwrite
 
-#ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/pod$ kubectl get pod --show-labels
+#ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/pod$ kubectl get pod --show-labels
 #NAME               READY   STATUS    RESTARTS   AGE    LABELS
 #nginx              1/1     Running   0          33m    environment=qa
 #nginx-with-label   1/1     Running   0          6m7s   division=product,environment=production,project=xxx,team=product,version=3.20
@@ -116,7 +116,7 @@ delete pod with speisific label
 
 ```bash
 # kubectl get pod --show-labels
-#ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/pod$  kubectl get pod --show-labels
+#ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/pod$  kubectl get pod --show-labels
 #NAME                    READY   STATUS    RESTARTS   AGE   LABELS
 #nginx-with-annotation   1/1     Running   0          65m   division=product,environment=development,project=xxx,team=project,version=3.20
 #nginx-with-label        1/1     Running   0          91m   division=product,environment=production,project=xxx,team=product,version=3.20

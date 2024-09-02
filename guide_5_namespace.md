@@ -76,7 +76,7 @@ cd /home/ubuntu/KUBERNETES_FILE/pod && \
 kubectl create -f pod_nginx.yaml --namespace namespace-finance
 
 # kubectl get pod --namespace namespace-finance
-# ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/pod$ kubectl get pod --namespace namespace-finance
+# ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/pod$ kubectl get pod --namespace namespace-finance
 # NAME    READY   STATUS    RESTARTS   AGE
 # nginx   1/1     Running   0          91s
 

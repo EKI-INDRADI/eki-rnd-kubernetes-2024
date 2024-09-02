@@ -104,7 +104,7 @@ cd /home/ubuntu/KUBERNETES_FILE/replica_set &&
 kubectl create -f rs_nginx.yaml --namespace default
 
 kubectl get pod
-# ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/replica_set$ kubectl get pod
+# ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/replica_set$ kubectl get pod
 # NAME                     READY   STATUS    RESTARTS      AGE
 # nginx-with-probe         1/1     Running   1 (17h ago)   20h
 # nginx-with-probe-error   1/1     Running   60 (9s ago)   20h
@@ -116,18 +116,18 @@ kubectl get pod
 # rs-nginx-tnjzb           1/1     Running   0             3s
 
 kubectl get rs
-# ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/replica_set$ kubectl get rs
+# ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/replica_set$ kubectl get rs
 # NAME       DESIRED   CURRENT   READY   AGE
 # rs-nginx   3         3         3       45s
 
 
 kubectl delete pod rs-nginx-tnjzb
 
-# ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/replica_set$ kubectl delete pod rs-nginx-tnjzb
+# ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/replica_set$ kubectl delete pod rs-nginx-tnjzb
 # pod "rs-nginx-tnjzb" deleted
 
 kubectl get pod
-# ubuntu@AZRN-VM-SV-PROD-KUBERNETES:~/KUBERNETES_FILE/replica_set$ kubectl get pod
+# ubuntu@YOUR-VM-NAME:~/KUBERNETES_FILE/replica_set$ kubectl get pod
 # NAME                     READY   STATUS             RESTARTS       AGE
 # nginx-with-probe         1/1     Running            1 (17h ago)    20h
 # nginx-with-probe-error   0/1     CrashLoopBackOff   60 (83s ago)   20h
